@@ -1,0 +1,43 @@
+.notifications {
+  margin-bottom: 1rem;
+  max-width: 750px;
+}
+.alert {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.5rem;
+}
+.info {
+  color: #084298;
+  background-color: #cfe2ff;
+  border-color: #b6d4fe;
+}
+.error {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+.success {
+  color: #0f5132;
+  background-color: #71bf9b;
+  border-color: #b6e0b6;
+}
+.warning {
+  color: #664d03;
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+}
+.message {
+  margin-right: 1rem;
+}
+.icon-button {
+  background-color: transparent;
+  border: none;
+  font-size: inherit;
+  padding: 0;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
